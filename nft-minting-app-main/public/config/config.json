@@ -2,7 +2,7 @@
   "CONTRACT_ADDRESS": "0x7f74cE2a20d461c4308c2E6fbB6726c8AcE26E4b",
   "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x7f74ce2a20d461c4308c2e6fbb6726c8ace26e4b",
   "NETWORK": {
-    "NAME": "Ethereum",
+    "NAME": "Ethereum Mainnet",
     "SYMBOL": "ETH",
     "ID": 137
   },
@@ -12,7 +12,7 @@
   "WEI_COST": 5000000000000000,
   "DISPLAY_COST": 0.005,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE": "Opensea",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/lost-camera-roll-v3",
   "SHOW_BACKGROUND": true
 }
