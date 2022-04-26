@@ -15,7 +15,7 @@ export const StyledButton = styled.button`
   background-color: var(--secondary);
   padding: 10px;
   font-family: Poppins;
-  text-transform: uppercase:
+  text-transform: uppercase;
   font-weight: bold;
   color: var(--secondary-text);
   width: 100px;
@@ -29,6 +29,8 @@ export const StyledRoundButton = styled.button`
   background-color: #bda392;
   padding: 10px;
   font-weight: bold;
+  font-family: Poppins;
+  text-transform: uppercase;
   font-size: 15px;
   color: #ffffff;
   width: 30px;
