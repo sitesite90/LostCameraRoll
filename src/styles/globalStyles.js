@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 // Used for wrapping a page component
 export const Screen = styled.div`
-  background-color: var(--primary);
-  background-image: ${({ image }) => (image ? `url(${image})` : "none")};
+  background-color: #bda392;
+  background-image: none;
   background-size: cover;
   background-position: center;
   width: 100%;
