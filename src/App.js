@@ -196,7 +196,7 @@ function App() {
               padding: 24,
               borderRadius: 24,
             }}
-          ><img style="margin: 20 20 30 20" src="/config/images/example.png" />
+          ><img style="margin: 20 20 30 20" src="/config/images/example.png"></img>
             <s.TextTitle
               style={{
                 textAlign: "center",
