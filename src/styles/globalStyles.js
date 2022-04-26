@@ -62,7 +62,8 @@ export const TextSubTitle = styled.p`
 
 export const TextDescription = styled.p`
   color: var(--primary-text);
-  font-size: 16px;
+  max-width: 800px;
+  font-size: 12px;
   line-height: 1.6;
 `;
 
