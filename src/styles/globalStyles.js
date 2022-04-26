@@ -2,10 +2,7 @@ import styled from "styled-components";
 
 // Used for wrapping a page component
 export const Screen = styled.div`
-  background-color: #bda392;
-  background-image: none;
-  background-size: cover;
-  background-position: center;
+  background-color: #bda392 !important;
   width: 100%;
   min-height: 100vh;
   display: flex;
