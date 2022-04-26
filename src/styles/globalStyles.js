@@ -49,6 +49,7 @@ export const Container = styled.div`
 
 export const TextTitle = styled.p`
   color: var(--primary-text);
+  font-family: Poppins;
   font-size: 22px;
   font-weight: 500;
   line-height: 1.6;
@@ -56,12 +57,14 @@ export const TextTitle = styled.p`
 
 export const TextSubTitle = styled.p`
   color: var(--primary-text);
+  font-family: Poppins;
   font-size: 18px;
   line-height: 1.6;
 `;
 
 export const TextDescription = styled.p`
   color: var(--primary-text);
+  font-family: Poppins;
   max-width: 800px;
   font-size: 12px;
   line-height: 1.6;
