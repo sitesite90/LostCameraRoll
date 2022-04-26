@@ -196,7 +196,7 @@ function App() {
               padding: 24,
               borderRadius: 24,
             }}
-          >
+          ><img src="/config/images/rotate.gif"></img>
             <s.TextTitle
               style={{
                 textAlign: "center",
