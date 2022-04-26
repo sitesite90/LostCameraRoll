@@ -197,9 +197,9 @@ function App() {
               borderRadius: 24,
             }}
           ><img src="/config/images/example.png"></img>
+                <s.SpacerSmall />
             <s.TextTitle
               style={{
-                margin: 30,
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "800 !important",
