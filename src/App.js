@@ -199,7 +199,7 @@ function App() {
           ><img src="/config/images/example.png"></img>
             <s.TextTitle
               style={{
-                margin-top: 50,
+                margin: 30,
                 textAlign: "center",
                 fontSize: 50,
                 fontWeight: "800 !important",
