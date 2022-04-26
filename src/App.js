@@ -180,7 +180,7 @@ function App() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "#bda392" }}
+        style={{ padding: 24, background-color: "#bda392" }}
       >
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
