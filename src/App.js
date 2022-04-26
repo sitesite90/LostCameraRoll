@@ -14,6 +14,7 @@ export const StyledButton = styled.button`
   border: none;
   background-color: var(--secondary);
   padding: 10px;
+  font-family: Poppins;
   font-weight: bold;
   color: var(--secondary-text);
   width: 100px;
