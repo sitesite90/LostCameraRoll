@@ -42,7 +42,7 @@ export const Container = styled.div`
   align-items: ${({ ai }) => (ai ? ai : "flex-start")};
   background-color: ${({ test }) => (test ? "pink" : "none")};
   width: 100%;
-  background-image: ${({ image }) => (image ? `url(${image})` : "none")};
+  background-image: none;
   background-size: cover;
   background-position: center;
 `;
