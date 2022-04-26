@@ -10,13 +10,17 @@ const truncate = (input, len) =>
 
 export const StyledButton = styled.button`
   padding: 10px;
+  border-radius: 50px;
   border: none;
-  background-color: #bda392;
+  background-color: var(--secondary);
   padding: 10px;
   font-weight: bold;
   color: var(--secondary-text);
   width: 100px;
   cursor: pointer;
+  box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+  -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+  -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -39,6 +43,9 @@ export const StyledRoundButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+  -webkit-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
+  -moz-box-shadow: 0px 4px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -68,7 +75,18 @@ export const StyledLogo = styled.img`
 `;
 
 export const StyledImg = styled.img`
-  display: none;
+  box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
+  border: 4px dashed var(--secondary);
+  background-color: var(--accent);
+  border-radius: 100%;
+  width: 200px;
+  @media (min-width: 900px) {
+    width: 250px;
+  }
+  @media (min-width: 1000px) {
+    width: 300px;
+  }
+  transition: width 0.5s;
 `;
 
 export const StyledLink = styled.a`
@@ -180,7 +198,8 @@ function App() {
       <s.Container
         flex={1}
         ai={"center"}
-        style={{ padding: 24 }}
+        style={{ padding: 24, backgroundColor: "var(--primary)" }}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
@@ -196,9 +215,11 @@ function App() {
             jc={"center"}
             ai={"center"}
             style={{
-              backgroundColor: "#989595",
+              backgroundColor: "var(--accent)",
               padding: 24,
-
+              borderRadius: 24,
+              border: "4px dashed var(--secondary)",
+              boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
             <s.TextTitle
@@ -226,11 +247,19 @@ function App() {
                 textAlign: "center",
               }}
             >
-
+              <StyledButton
+                onClick={(e) => {
+                  window.open("/config/sneakpeek.png", "_blank");
+                }}
+                style={{
+                  margin: "5px",
+                }}
+              >
+                Sneakpeek here
+              </StyledButton>
               <StyledButton
                 style={{
                   margin: "5px",
-                       width: 100%,
                 }}
                 onClick={(e) => {
                   window.open(CONFIG.MARKETPLACE_LINK, "_blank");
