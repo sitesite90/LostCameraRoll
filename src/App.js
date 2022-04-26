@@ -206,7 +206,7 @@ function App() {
               padding: 24,
               borderRadius: 24,
             }}
-          > <StyledArt alt={"Art"} src={"/config/images/rotate.png"} />
+          > <StyledImg alt={"example"} src={"/config/images/example.png"} />
             <s.TextTitle
               style={{
                 textAlign: "center",
