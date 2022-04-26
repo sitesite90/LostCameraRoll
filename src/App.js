@@ -298,7 +298,7 @@ function App() {
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  Excluding gas fees.
+                  Excluding gas fees - max 20 mints.
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
