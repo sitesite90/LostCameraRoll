@@ -196,7 +196,7 @@ function App() {
               padding: 24,
               borderRadius: 24,
             }}
-          > <StyledLogo alt={"logo"} src={"/config/images/rotate.gif"} />
+          > <StyledLogo alt={"example"} src={"/config/images/rotate.gif"} />
             <s.TextTitle
               style={{
                 textAlign: "center",
