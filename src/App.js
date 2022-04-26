@@ -249,13 +249,13 @@ function App() {
             >
               <StyledButton
                 onClick={(e) => {
-                  window.open("/config/roadmap.pdf", "_blank");
+                  window.open("/config/sneakpeek.png", "_blank");
                 }}
                 style={{
                   margin: "5px",
                 }}
               >
-                Go mint
+                Sneakpeek here
               </StyledButton>
               <StyledButton
                 style={{
