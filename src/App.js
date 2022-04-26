@@ -67,6 +67,10 @@ export const StyledLogo = styled.img`
   transition: height 0.5s;
 `;
 
+export const StyledImg = styled.img`
+  display: none;
+`;
+
 export const StyledLink = styled.a`
   color: var(--secondary);
   text-decoration: none;
