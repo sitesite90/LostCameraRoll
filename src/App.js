@@ -63,10 +63,6 @@ export const StyledLogo = styled.img`
   transition: height 0.5s;
 `;
 
-export const StyledImg = styled.img`
-  display: none;
-`;
-
 
 export const StyledArt = styled.img`
   width: 200px;
