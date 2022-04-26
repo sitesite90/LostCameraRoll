@@ -227,19 +227,12 @@ function App() {
                 textAlign: "center",
               }}
             >
-              <StyledButton
-                onClick={(e) => {
-                  window.open("/config/sneakpeek.png", "_blank");
-                }}
-                style={{
-                  margin: "5px",
-                }}
-              >
-                Sneakpeek here
-              </StyledButton>
+
               <StyledButton
                 style={{
                   margin: "5px",
+                       width: 100%,
+                       min-width: 100%,
                 }}
                 onClick={(e) => {
                   window.open(CONFIG.MARKETPLACE_LINK, "_blank");
