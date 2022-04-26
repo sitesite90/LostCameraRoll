@@ -238,13 +238,13 @@ function App() {
             >
               <StyledButton
                 onClick={(e) => {
-                  window.open("/config/sneakpeek.png", "_blank");
+                  window.open("https://twitter.com/LostCameraRoll", "_blank");
                 }}
                 style={{
                   margin: "5px",
                 }}
               >
-                Sneakpeek here
+                Twitter 
               </StyledButton>
               <StyledButton
                 style={{
