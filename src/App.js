@@ -177,7 +177,7 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "#bda392" }}
-      >
+      >                <s.SpacerSmall />
         <a href={CONFIG.MARKETPLACE_LINK}>
           <StyledLogo alt={"logo"} src={"/config/images/logo-camroll.png"} />
         </a>
