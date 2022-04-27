@@ -360,7 +360,7 @@ function App() {
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
-                          mint();
+                          ClaimNft();
                           getData();
                         }}
                       >
